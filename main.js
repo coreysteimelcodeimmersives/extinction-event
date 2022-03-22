@@ -24,19 +24,12 @@ for (let i = 0; i < listItems2.length; i++){
 
         if (item.style.opacity === '0'){
             console.log('if')
-            setInterval(function(){
                 item.style.opacity = '1'
-            }, 20);
         } else if (item.style.obacity === '1'){ 
             console.log('else if')
-            setInterval(function(){
                 item.style.opacity = '0'
-            }, 20);
         } else {
             console.log('else')
-            setInterval(function(){
-                item.style.opacity += '-0.01'
-            }, 20);
             item.style.opacity = '0'
         }
     })
