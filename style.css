@@ -17,6 +17,7 @@ img {
 }
 
 ul li {
+  width: fit-content;
   transition: 2s opacity;
 }
 
