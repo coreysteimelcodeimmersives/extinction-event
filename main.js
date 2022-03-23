@@ -25,9 +25,9 @@ for (let i = 0; i < listItems2.length; i++){
         if (item.style.opacity === '0'){
             console.log('if')
                 item.style.opacity = '1'
-        } else if (item.style.obacity === '1'){ 
-            console.log('else if')
-                item.style.opacity = '0'
+        // } else if (item.style.obacity === '1'){ 
+        //     console.log('else if')
+        //         item.style.opacity = '0'
         } else {
             console.log('else')
             item.style.opacity = '0'
